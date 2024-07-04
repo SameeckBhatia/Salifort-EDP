@@ -1,4 +1,3 @@
-## Google Certificate Capstone
 # Google Certificate Capstone
 
 ## Prompt
