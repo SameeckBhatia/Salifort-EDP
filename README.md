@@ -1,5 +1,7 @@
 ## Google Certificate Capstone
 
+---
+
 ### Prompt
 
 "As a data specialist working for Salifort Motors, you have received the results
@@ -8,3 +10,19 @@ analyzing the data to come up with ideas for how to increase employee retention.
 To help with this, they would like you to design a model that predicts whether
 an employee will leave the company based on their department, number of
 projects, average monthly hours, and any other data points you deem helpful."
+
+---
+
+### Plan
+
+#### Stakeholders
+
+- Company customers
+- Company employees
+- Company executives
+- Company HR department
+
+#### Goal
+
+- To reduce costs related to replacing employees who have left and increase 
+retention rates.
