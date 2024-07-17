@@ -1,4 +1,4 @@
-# Google Certificate Capstone
+# Salifort EDP: Employee Departure Predictor
 
 ## Prompt
 
