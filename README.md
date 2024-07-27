@@ -28,14 +28,15 @@ projects, average monthly hours, and any other data points you deem helpful."
 
 ## Analyze
 
-### Transformations
-
-- ``hours_per_project``
-- ``average_weekly_hours``
-- ``satisfaction_and_performance``
-
 ### Hypothesis Tests
 
 - Attrition rate by ``promotion_last_5years``
 - Attrition rate by ``work_accident``
 - Attrition rate by ``salary``
+
+## Construct
+
+### Model Selection
+
+- Logistic Regression
+- Decision Tree Classifier
