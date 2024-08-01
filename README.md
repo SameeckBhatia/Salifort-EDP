@@ -18,7 +18,7 @@ projects, average monthly hours, and any other data points you deem helpful."
 | ``satisfaction_level``    | The employee’s self-reported satisfaction level [0-1]             |
 | ``last_evaluation``       | Score of employee's last performance review [0-1]                 |
 | ``number_project ``       | Number of projects employee contributes to                        |
-| ``average_montly_hours`` | Average number of hours employee worked per month                 |
+| ``average_montly_hours``  | Average number of hours employee worked per month                 |
 | ``time_spend_company``    | How long the employee has been with the company (years)           |
 | ``Work_accident``         | Whether or not the employee experienced an accident while at work |
 | ``left``                  | Whether or not the employee left the company                      |
@@ -36,7 +36,15 @@ projects, average monthly hours, and any other data points you deem helpful."
 
 ## Construct
 
-### Model Selection
+### Feature Engineering
 
-- Logistic Regression
+- ``satisfaction``
+- ``performance``
+- ``overtime``
+- ``projects_per_year``
+
+### Final Model
+
 - Decision Tree Classifier
+- Recall: 91%
+- Most important features: ``number_project``, ``satisfaction_high``, ``avg_monthly_hours``
